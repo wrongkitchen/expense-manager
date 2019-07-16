@@ -1,0 +1,4 @@
+.box .react-datepicker-wrapper, .box .react-datepicker__input-container{
+    display: block;
+}
+.box .react-datepicker-popper{ top: 32px !important; z-index: 10; }
