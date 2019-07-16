@@ -4,7 +4,7 @@ const StoragePath = Meteor.settings.STORAGE_PATH;
 
 const Images = new FilesCollection({
     collectionName: 'Images',
-    storagePath: StoragePath
+    storagePath: "/doc_storage"
 });
 
 export { StoragePath };

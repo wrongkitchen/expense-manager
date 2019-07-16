@@ -323,11 +323,29 @@
       "path": "packages/autoupdate.js"
     },
     {
-      "node_modules": "npm/node_modules",
+      "node_modules": {
+        "npm/build/bundle/programs/server/npm/node_modules": {
+          "packageName": null,
+          "local": true
+        },
+        "npm/node_modules": {
+          "packageName": null,
+          "local": true
+        }
+      },
       "path": "app/global-imports.js"
     },
     {
-      "node_modules": "npm/node_modules",
+      "node_modules": {
+        "npm/build/bundle/programs/server/npm/node_modules": {
+          "packageName": null,
+          "local": true
+        },
+        "npm/node_modules": {
+          "packageName": null,
+          "local": true
+        }
+      },
       "sourceMap": "app/app.js.map",
       "path": "app/app.js"
     },
