@@ -2,34 +2,34 @@
   "format": "web-program-pre1",
   "manifest": [
     {
-      "path": "d7e5716aaeb28cb50a85d821dd1073ee02bf2c23.js",
+      "path": "12e331f1aceb4764b61c38357990a6deaaeceadd.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/d7e5716aaeb28cb50a85d821dd1073ee02bf2c23.js?meteor_js_resource=true",
-      "size": 4566676,
-      "hash": "d7e5716aaeb28cb50a85d821dd1073ee02bf2c23",
-      "sri": "JnY96MzpoAHEh5YQm33Q7uQRsMPt7Jcrst+geLZI7KAwzYDV+Rn8akbs01pQUqlHZDdAyZoMAcJMDoL0CAs8jQ=="
+      "url": "/12e331f1aceb4764b61c38357990a6deaaeceadd.js?meteor_js_resource=true",
+      "size": 1476387,
+      "hash": "12e331f1aceb4764b61c38357990a6deaaeceadd",
+      "sri": "jIxUBQOW/eWbY7jL05ToC+FiV5W3vgkyuc/9xTG8/cc4wODnAONzkRQ1IZKq+d/67qSH6dP44fD7G1u32qLYzw=="
     },
     {
-      "path": "d7e5716aaeb28cb50a85d821dd1073ee02bf2c23.stats.json",
+      "path": "12e331f1aceb4764b61c38357990a6deaaeceadd.stats.json",
       "where": "client",
       "type": "json",
       "cacheable": true,
-      "url": "/d7e5716aaeb28cb50a85d821dd1073ee02bf2c23.stats.json?meteor_js_resource=true",
-      "size": 39043,
-      "hash": "574fa3852c6f544edee0140d4589f9307145680e",
-      "sri": "lxGliy7k738PJA8RUD3BKmxJKyWznWZjLBvT9vQxyJSk2P6TRMbeuMiPIb6jO3DlLvQC1KyrYX2m/wl37bpPDQ=="
+      "url": "/12e331f1aceb4764b61c38357990a6deaaeceadd.stats.json?meteor_js_resource=true",
+      "size": 38222,
+      "hash": "ea052d2b868d88111e4390cdde67000c2f0c52e5",
+      "sri": "YiI5V2+ImHahDUP2ZpAkX+FfZN6NkL2j5EtNpFwveyp2Q0Svw//1dYNi3GJP7PclxD79AT9HoTEB0Y2WPEk0kA=="
     },
     {
-      "path": "bf5aacb1d8b82d141695e7c8c78b0e288c75f914.css",
+      "path": "abbe994771a053516c0cc327ba69d3424d2cff47.css",
       "where": "client",
       "type": "css",
       "cacheable": true,
-      "url": "/bf5aacb1d8b82d141695e7c8c78b0e288c75f914.css?meteor_css_resource=true",
-      "size": 326670,
-      "hash": "bf5aacb1d8b82d141695e7c8c78b0e288c75f914",
-      "sri": "/Bd1JbsxdzwFeSXDxQjQMyoXU7lD7zrqt/47sFrhDkvbjKZydn5okvkJqdzURa6LcNwAx8K1mDTpyF/vwz95hQ=="
+      "url": "/abbe994771a053516c0cc327ba69d3424d2cff47.css?meteor_css_resource=true",
+      "size": 310834,
+      "hash": "abbe994771a053516c0cc327ba69d3424d2cff47",
+      "sri": "yZ7wnID7YrwrkawAVfLwoeZ9aMj05VACEtDVHpp6+d/VlVfbOGjEptty6GKewaMYGyLJ8AQANnEI+ERF2/X8PQ=="
     },
     {
       "path": "packages/mizzao_jquery-ui/images/ui-bg_flat_0_aaaaaa_40x100.png",
