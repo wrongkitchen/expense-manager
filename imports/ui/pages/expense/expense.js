@@ -90,6 +90,9 @@ const app = (props) => {
 	}
 	const fetchExpense = () => {
 		return expenseThisMonth.map((data,index) => {
+			let formatTime = function(datetime){
+				return Moment(datetime).format('M月份');
+			}
 			return (<tr key={index}>
 				<td>
 					<button className="btn btn-default" data-path={(data.image && data.image.length) ? data.image[0]._id + data.image[0].extensionWithDot : ""} onClick={showAttachment}>
@@ -99,6 +102,7 @@ const app = (props) => {
 				<td>${data.amount}</td>
 				<td>{data.type}</td>
 				<td>{data.desc}</td>
+				<td>{formatTime(data.date)}</td>
 				<td className="text-right">
 					<button onClick={()=>{
 						removeExpense(data._id);
@@ -183,6 +187,7 @@ const app = (props) => {
 									<th>Amount</th>
 									<th>Type</th>
 									<th>Description</th>
+									<th>Date</th>
 									<th className="text-right">Action</th>
 								</tr>
 								{ fetchExpense() }

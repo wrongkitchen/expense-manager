@@ -25,11 +25,7 @@ Meteor.publish('expense.this_month', function() {
     const start_date = Moment().startOf('month').startOf('day').format();
     const end_date = Moment().endOf('month').endOf('day').format();
     const query = { 
-        userId: Meteor.userId(),
-        date: {
-            $gte: new Date(start_date),
-            $lt: new Date(end_date)
-        }
+        userId: Meteor.userId()
     };
     Expense.find(query).observeChanges({
         added: (id, obj) => {
@@ -65,7 +61,8 @@ Meteor.publish('expense.this_month', function() {
                     "_id": 1,
                     "amount": 1,
                     "desc": 1,
-                    "image": 1
+                    "image": 1,
+                    "date": 1
                 }
             }
         ]).toArray());
