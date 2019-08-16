@@ -1,10 +1,10 @@
 import { FilesCollection } from 'meteor/ostrio:files';
 
-const StoragePath = Meteor.settings.STORAGE_PATH;
+const StoragePath = "/doc_storage";
 
 const Images = new FilesCollection({
     collectionName: 'Images',
-    storagePath: "/doc_storage"
+    storagePath: StoragePath
 });
 
 export { StoragePath };
